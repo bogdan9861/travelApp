@@ -1,0 +1,126 @@
+.results-title{
+    padding-left: 55px;
+}
+
+.wrapper {
+    margin: 50px;
+    display: flex;
+}
+
+.results {
+    overflow-y: scroll;
+    width: 75%;
+    max-height: 75vh;
+    padding-bottom: 20px;
+}
+
+.results::-webkit-scrollbar {
+    width: 10px;
+    height: 6px;
+    cursor: pointer;
+}
+
+.results::-webkit-scrollbar-track {
+    background-color: #CECAFF;
+    border-radius: 10px;
+}
+
+.results::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #A8A3DC;
+}
+
+.inner {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.cart {
+    width: 280px;
+    height: 420px;
+    padding: 18px 30px;
+    background: #F9F9F9;
+    border: 1px solid #DCDCDC;
+    box-shadow: 7px 7px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.cords {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 12px;
+}
+
+.cords__item {
+    min-width: 74px;
+    padding: 4px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    text-align: center;
+}
+
+.img {
+    border-radius: 21px;
+    object-fit: cover;
+    height: 220px;
+}
+
+.title,
+.subtitle {
+    text-align: center;
+    display: block;
+}
+
+.search-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    width: 50%;
+    margin-top: 75px;
+}
+
+.form {
+    display: flex;
+    position: relative;
+    max-width: 452px;
+    margin-bottom: 50px;
+}
+
+.form img {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+.input {
+    width: 100%;
+    padding: 13px 47px 13px 10px;
+    border-radius: 22px;
+    border: 2px solid #BABABA;
+    font-size: 19px;
+}
+
+.input::placeholder {
+    color: #8A8787;
+    font-size: 17px;
+}
+
+.request__item {
+    display: flex;
+    justify-content: space-between;
+    max-width: 337px;
+    width: 100%;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    padding-bottom: 10px;
+}
+
+.request__item-key {
+    color: rgba(0, 0, 0, 0.69);
+}
